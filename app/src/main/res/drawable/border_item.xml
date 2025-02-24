@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat item ditekan, border berwarna merah dan lebih tebal -->
+    <item android:drawable="@drawable/border_pressed" android:state_pressed="true" />
+
+    <!-- Saat item difokuskan, border berwarna biru -->
+    <item android:drawable="@drawable/border_focused" android:state_focused="true" />
+
+    <!-- Saat item dalam keadaan normal -->
+    <item android:drawable="@drawable/border_normal" />
+</selector>
